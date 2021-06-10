@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>toboolist</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <!-- <img id="logo" src="https://www.boolean.careers/images/misc/logo.png" alt=""> -->
+        <img id="logo" src="img/logo.png" alt="logo boolean">
+        <span id="logo-text">Toboolist</span>
+    </header>
+    <main>
+        <div class="container">
+            <div class="top">
+                <button type="button" class="btn btn-filled"><a href="#">Add Task</a></button>
+                <button type="button" class="btn btn-empty"><a href="#">Add Section</a></button>
+            </div>
+            <div class="tasks">
+                <ul>
+                    <li>
+                        <h3> New Task </h3> <!-- &#9662 -->
+                        <ul>
+                            <!-- spieghiamo che la classe tag ci serve per getsire le caratteristiche principali del tag e tag-type-n per gestire i colori, non sono degli id perchè possiamo avere tanti tag con quel tipo -->
+                            <li><span class="circle checked"></span>Quarterly Newsletter <span class="tag tag-type-1">Editorial</span></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3> Today </h3>
+                        <ul>
+                            <li><span class="circle checked"></span>Recruiting blog post <span class="tag tag-type-1">Editorial</span></li>
+                            <li><span class="circle checked"></span>Mobile app luaunch <span class="tag tag-type-2">Q1 Goals</span></li>
+                            <li><span class="circle delete"></span>Interview John H. <span class="tag tag-type-3">Recruiting</span></li>
+                            <li><span class="circle checked"></span>Summit update to mobiile storefronts <span class="tag tag-type-4">Mobile</span></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3> Upcoming </h3>
+                        <ul>
+                            <li><span class="circle delete"></span>Schedule meeting with Alex </li>
+                            <li><span class="circle checked"></span>Homepage refresh <span class="tag tag-type-5">Website</span></li>
+                            <li><span class="circle checked"></span>Onboard new Sales team members <span class="tag tag-type-6">Sales</span></li>
+                            <li><span class="circle checked"></span>Review editorial calendar <span class="tag tag-type-1">Editorial</span></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
